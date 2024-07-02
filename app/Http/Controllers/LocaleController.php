@@ -10,9 +10,10 @@ class LocaleController extends Controller
 {
     public function setLocale($lang)
     {
-//        dd($lang);
-        App::setLocale($lang);
         Session::put('locale', $lang);
-        return redirect('/');
+
+        App::setLocale($lang);
+
+        return back();
     }
 }

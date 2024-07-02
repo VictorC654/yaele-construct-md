@@ -19,9 +19,9 @@ class LocalizationMiddleware
     public function handle(Request $request, Closure $next): Response
     {
         $locale = Session::get('locale') ?? 'ru';
-        dump($locale, App::getLocale());
-        Log::info("Setting locale to: $locale");
+
         App::setLocale($locale);
+
         return $next($request);
     }
 }
