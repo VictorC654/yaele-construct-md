@@ -14,7 +14,14 @@ return new class extends Migration
         Schema::create('apartments', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-//            $table->
+            $table->string('etaj');
+            $table->string('nr_camere');
+            $table->string('suprafata');
+            $table->string('boxa_depozitare');
+            $table->text('desc_ro');
+            $table->text('desc_ru');
+            $table->string('price');
+            $table->json('galerie');
         });
     }
 

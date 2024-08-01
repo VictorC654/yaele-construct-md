@@ -11,14 +11,15 @@
                                     @lang('site.nav-despre-noi')
                                 </span>
         </a></li>
-    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4351 qodef-menu-item--narrow">
+    <li class=" {{ request()->is('proiecte-imobiliare-finalizate') ? 'current-menu-item current_page_item' : '' }}
+    menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4351 qodef-menu-item--narrow">
         <a href="#">
                             <span class="qodef-menu-item-text">
                                 @lang('site.nav-proiecte')
                             </span>
             <span class="qodef-menu-arrow">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
-                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                     x="0px" y="0px"
                                      width="10px" height="10px" viewBox="0 0 10 10" enable-background="new 0 0 10 10"
                                      xml:space="preserve">
                                     <g><polygon
@@ -31,32 +32,35 @@
                 <ul class="sub-menu">
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4346 qodef-anchor">
                         <a href="{{ route('proiecte-finalizate') }}">
-                                                <span class="qodef-menu-item-text">
-                                                    @lang('site.nav-proiecte-finalizate')
-                                                </span>
+                            <span class="qodef-menu-item-text">
+                                @lang('site.nav-proiecte-finalizate')
+                            </span>
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
     </li>
-    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5923">
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5923 {{ request()->is('apartamente-de-vanzare-busteni-valea-prahovei') ? 'current-menu-item current_page_item' : '' }}">
         <a href="{{ route('apartamente-vanzare') }}">
-                            <span class="qodef-menu-item-text">
-                                    @lang('site.nav-apartamente-vanzare')
-                            </span>
+            <span class="qodef-menu-item-text">
+                    @lang('site.nav-apartamente-vanzare')
+            </span>
         </a>
     </li>
-    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4343">
+    <li class="{{ request()->is('apartamente-de-investitie-busteni-valea-prahovei') ? 'current-menu-item current_page_item' : '' }}
+    menu-item menu-item-type-post_type menu-item-object-page menu-item-4343">
         <a href="{{ route('apartamente-investitie') }}">
             <span class="qodef-menu-item-text">@lang('site.nav-apartamente-investitie')</span>
         </a>
     </li>
-    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4347"><a
+    <li class="{{ request()->is('case-de-vanzare-zarnesti-bran') ? 'current-menu-item current_page_item' : '' }}
+    menu-item menu-item-type-post_type menu-item-object-page menu-item-4347"><a
             href="{{ route('case-de-lux') }}">
             <span class="qodef-menu-item-text">@lang('site.nav-case-de-lux')</span>
         </a></li>
-    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4350"><a
+    <li class="{{ request()->is('contact') ? 'current-menu-item current_page_item' : '' }}
+    menu-item menu-item-type-post_type menu-item-object-page menu-item-4350"><a
             href="{{ route('contact') }}"><span class="qodef-menu-item-text">
                                     @lang('site.nav-contact')
                                 </span>

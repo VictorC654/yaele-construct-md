@@ -7,5 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Apartment extends Model
 {
+    protected $casts = [
+        'galerie' => 'array'
+    ];
     use HasFactory;
 }
+
+
