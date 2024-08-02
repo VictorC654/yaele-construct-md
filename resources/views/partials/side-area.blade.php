@@ -34,7 +34,7 @@
                         079 443 390
                     </a>
                     <br/>
-                    <span style="color: #d7926b;">E</span>: <a href="mailto:contact@yaele-construct.ro">contact@yaele-construct.ro</a>
+                    <span style="color: #d7926b;">E</span>: <a href="mailto:contact@yaele-construct.md">contact@yaele-construct.md</a>
                 </p>
             </div>
         </div>
