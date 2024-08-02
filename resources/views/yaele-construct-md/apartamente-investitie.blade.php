@@ -912,7 +912,7 @@
                                                     <a href="/apartamente-de-vanzare-busteni-valea-prahovei/{{ $apartment->id }}">
                                                         <img decoding="async" fetchpriority="high" width="1300"
                                                              height="850"
-                                                             src="{{ asset($apartment->galerie[0]) }}"
+                                                             src="{{ asset($apartment->mainpic) }}"
                                                              class="attachment-full size-full wp-image-4959" alt=""
 {{--                                                             srcset="https://yaele-construct.ro/wp-content/uploads/2023/09/YAEL2_AP10_3.jpg 1300w, https://yaele-construct.ro/wp-content/uploads/2023/09/YAEL2_AP10_3-300x196.jpg 300w, https://yaele-construct.ro/wp-content/uploads/2023/09/YAEL2_AP10_3-1024x670.jpg 1024w, https://yaele-construct.ro/wp-content/uploads/2023/09/YAEL2_AP10_3-768x502.jpg 768w"--}}
                                                              sizes="(max-width: 1300px) 100vw, 1300px"/> </a>
