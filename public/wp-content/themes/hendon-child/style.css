@@ -158,7 +158,7 @@ text-decoration: underline;
 @media only screen and (max-width: 767px) {
     .page-id-4087 .qodef-page-title .qodef-m-title {
         margin-top:-70px !important;
-        font-size:1.3em !important;
+        font-size:1em !important;
         line-height: 1.3em !important;
     }
 }

@@ -736,20 +736,6 @@
                 font-size: 25px;
             }
         }
-
-
-        @media  (max-width: 480px) {
-            h1 {
-                  font-size:.1em !important;
-            }
-        }
-
-        /*@media only screen and (max-width: 480px)*/
-        /*{*/
-        /*    h1 {*/
-        /*        font-size:.1em !important;*/
-        /*    }*/
-        /*}*/
     </style>
     <link rel='stylesheet' id='hendon-core-elementor-css'
           href='{{ asset('wp-content/plugins/hendon-core/inc/plugins/elementor/assets/css/elementor.min.css') }}'
