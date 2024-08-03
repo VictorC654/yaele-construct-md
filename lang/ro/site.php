@@ -8,6 +8,10 @@
         'nav-apartamente-vanzare' => 'Apartamente de vanzare',
         'nav-case-de-lux' => 'Case de lux',
         'nav-contact' => 'Contact',
+        'accept' => 'Accept',
+        'cookies-button' => 'Folosim cookies pentru a ne asigura ca oferim cea mai buna experienta de navigare pe site-ul nostru.
+                    Prin continuarea utilizarii site-ului, acceptati <a href="/termeni-si-conditii">Politica de
+                        confidentialitate.',
         'home-dezvoltator-proiecte' => 'dezvoltator de proiecte imobiliare în Bușteni, Valea Prahovei',
         'home-dezvoltator-proiecte-2' => 'Acolo unde frumusețea Carpaților se îmbină cu arhitectura adaptată peisajului, întâlnești confortul caselor și apartamentelor oferite de',
         'home-dezvoltator-proiecte-3' => 'un <b>dezvoltator de prestigiu</b>, cu <b>peste 10 proiecte imobiliare</b> finalizate cu succes.',
