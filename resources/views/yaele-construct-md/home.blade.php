@@ -797,7 +797,7 @@
           content="{{ asset('wp-content/uploads/2024/01/cropped-favicon-270x270.png') }}"/>
 </head>
 <body
-    class="home page-template page-template-page-full-width page-template-page-full-width-php page qode-framework-1.2.1 qodef-qi--no-touch qi-addons-for-elementor-1.6.2 qodef-age-verification--opened qodef-back-to-top--enabled  qodef-content-grid-1300 qodef-header--dark qodef-header--standard qodef-header-appearance--none qodef-mobile-header--standard qodef-drop-down-second--full-width qodef-drop-down-second--animate-height hendon-core-1.1.4 hendon-child-child-1.0.1 hendon-1.5 qodef-header-standard--left qodef-search--covers-header elementor-default elementor-kit-6 elementor-page elementor-page-3003"
+    class="page-id-3003 home page-template page-template-page-full-width page-template-page-full-width-php page qode-framework-1.2.1 qodef-qi--no-touch qi-addons-for-elementor-1.6.2 qodef-age-verification--opened qodef-back-to-top--enabled  qodef-content-grid-1300 qodef-header--dark qodef-header--standard qodef-header-appearance--none qodef-mobile-header--standard qodef-drop-down-second--full-width qodef-drop-down-second--animate-height hendon-core-1.1.4 hendon-child-child-1.0.1 hendon-1.5 qodef-header-standard--left qodef-search--covers-header elementor-default elementor-kit-6 elementor-page elementor-page-3003"
     itemscope itemtype="https://schema.org/WebPage">
 <!-- Google Tag Manager (noscript) -->
 <noscript>
@@ -812,10 +812,10 @@
             <a itemprop="url" class="qodef-header-logo-link qodef-height--set" href="/" style="height:68px" rel="home">
                 <img width="267" height="120" src="/" class="qodef-header-logo-image qodef--main" alt="logo main"
                      itemprop="image"/> <img width="267" height="120"
-                                             src="https://yaele-construct.ro/wp-content/uploads/2023/09/logo_yaele.svg"
+                                             src="{{ asset('wp-content/uploads/2023/09/logo_yaele.svg') }}"
                                              class="qodef-header-logo-image qodef--dark" alt="logo dark"
                                              itemprop="image"/> <img width="267" height="120"
-                                                                     src="https://yaele-construct.ro/wp-content/uploads/2023/09/logo_yaele.svg"
+                                                                     src="{{ asset('wp-content/uploads/2023/09/logo_yaele.svg') }}"
                                                                      class="qodef-header-logo-image qodef--light"
                                                                      alt="logo light" itemprop="image"/></a>
             <nav class="qodef-header-navigation" role="navigation" aria-label="Top Menu">
