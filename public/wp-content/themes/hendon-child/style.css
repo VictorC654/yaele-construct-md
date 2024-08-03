@@ -14,7 +14,7 @@ Template: hendon
 
 
 
-.page-id-3003 .qodef-page-title .qodef-m-title { 
+.page-id-3003 .qodef-page-title .qodef-m-title {
     margin-top:0px !important;
     font-size: 4em !important;
 }
@@ -40,13 +40,13 @@ Template: hendon
 
 /* DESPRE NOI */
 
-.page-id-3133 .qodef-page-title .qodef-m-title { 
+.page-id-3133 .qodef-page-title .qodef-m-title {
     margin-top:0px !important;
     font-size:4em !important;
 }
 
 @media only screen and (max-width: 767px) {
-    .page-id-3133 .qodef-page-title .qodef-m-title { 
+    .page-id-3133 .qodef-page-title .qodef-m-title {
         margin-top:-70px !important;
         font-size:2em !important;
     }
@@ -62,7 +62,7 @@ Template: hendon
     .page-id-3329 .qodef-page-title .qodef-m-title { margin-top:-70px !important;}
 }
 
-#case_a_frame .qodef-section-title .qodef-m-text { 
+#case_a_frame .qodef-section-title .qodef-m-text {
     letter-spacing: .1em !IMPORTANT;
 }
 
@@ -88,15 +88,15 @@ Template: hendon
 
 
 /* PROIECTE REALIZATE */
-.page-id-3669 .elementor-section.elementor-section-boxed > .elementor-container {max-width:1300px !important;} 
+.page-id-3669 .elementor-section.elementor-section-boxed > .elementor-container {max-width:1300px !important;}
 .bloc_finalizate .elementor-widget-hendon_core_button { text-align:center !important;}
 
-.page-id-3669 .qodef-page-title .qodef-m-title { 
+.page-id-3669 .qodef-page-title .qodef-m-title {
     margin-top:0px !important;
 }
 
 @media only screen and (max-width: 767px) {
-    .page-id-3669 .qodef-page-title .qodef-m-title { 
+    .page-id-3669 .qodef-page-title .qodef-m-title {
         margin-top:-70px !important;
         font-size:2em !important;
     }
@@ -107,17 +107,16 @@ Template: hendon
 
 /* PROIECTE IN DEZVOLTARE */
 @media only screen and (max-width: 767px) {
-    .page-id-4304 .qodef-page-title .qodef-m-title { 
+    .page-id-4304 .qodef-page-title .qodef-m-title {
         margin-top:-70px !important;
         font-size:2em !important;
     }
 }
 
-
-/* Apartament Single */
+    /* Apartament Single */
 .info_apartament h6 { margin:0px !important;}
 
-.descarca_plan_rlv h6 a{ 
+.descarca_plan_rlv h6 a{
 font-family: "Cormorant Garamond";
 text-decoration: underline;
     text-underline-offset: 0.6em;
@@ -127,7 +126,7 @@ text-decoration: underline;
 
 @media only screen and (max-width: 767px) {
 #navigare_galerie { margin-top:-57% !important;}
-#navigare_galerie i { 
+#navigare_galerie i {
     font-size:1.5em !important;
 }
 }
@@ -140,9 +139,9 @@ text-decoration: underline;
 }
 
 @media only screen and (min-width: 768px) {
-  #descriere_apartament_single p { 
+  #descriere_apartament_single p {
       text-align:center !important;
-  }  
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -157,9 +156,9 @@ text-decoration: underline;
 }
 
 @media only screen and (max-width: 767px) {
-    .page-id-4087 .qodef-page-title .qodef-m-title { 
+    .page-id-4087 .qodef-page-title .qodef-m-title {
         margin-top:-70px !important;
-        font-size:1.7em !important;
+        font-size:1.3em !important;
         line-height: 1.3em !important;
     }
 }
@@ -172,7 +171,7 @@ hr.rigla {
     background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #c28562));
 }
 
-@media only screen and (min-width: 768px) { 
+@media only screen and (min-width: 768px) {
 hr.rigla { display:none !important; }
 }
 
@@ -180,11 +179,11 @@ hr.rigla { display:none !important; }
 
 
 /* Contact */
-@media only screen and (max-width: 767px) { 
+@media only screen and (max-width: 767px) {
 .pagina_contact_bloc p{ text-align:justify !important;}
 }
 
-.pagina_contact_bloc h6 { 
+.pagina_contact_bloc h6 {
     letter-spacing: .4em !important;
     letter-spacing: .2em !important;
     line-height: 2em;
@@ -213,14 +212,16 @@ hr.rigla { display:none !important; }
 }
 
 .ascunde { display:none !important;}
-@media only screen and (max-width: 767px) { 
+@media only screen and (max-width: 767px) {
 .hide_on_mobile { display:none !important;}
 }
 
 .qodef-m-title.entry-title { font-size:2.5em !important; margin-top:0px !important;} /* Global title settings */
-@media only screen and (max-width: 767px) { 
+
+@media only screen and (max-width: 767px) {
 .qodef-m-title.entry-title {font-size:1.5em !important; line-height:1.5em !important;}
 }
+
 
 .widget_hendon_core_search_opener { display:none !important; }
 
@@ -275,8 +276,8 @@ accent-color: #000000 !important;
 
 /* Fix banner */
 
-@media only screen and (min-width: 1024px) { 
-.qodef-page-title { 
+@media only screen and (min-width: 1024px) {
+.qodef-page-title {
 max-height:60vh !important;
 background-position:center center !important;
 }
@@ -323,13 +324,13 @@ transition: 0.7s filter linear, 1s -webkit-filter linear;
 
 /* GDPR plugin style */
 
-.sgcc-notice-content p, .sgcc-notice-content a { 
+.sgcc-notice-content p, .sgcc-notice-content a {
     font-family: 'Raleway' !important;
-    
+
 }
 
 @media (max-width: 460px){
-    
+
 #close-sgcc { display:none !important;}
 
 .sgcc-main-wrapper {

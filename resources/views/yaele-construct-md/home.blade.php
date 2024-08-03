@@ -1022,7 +1022,7 @@
                                                 <div class="elementor-widget-container">
                                                     <div
                                                         class="qodef-shortcode qodef-m  qodef-counter qodef-layout--simple"
-                                                        data-start-digit="400" data-end-digit="9056">
+                                                        data-start-digit="400" data-end-digit="9656">
                                                         <div class="qodef-m-digit-wrapper-holder">
                                                             <div class="qodef-m-digit-wrapper">
                                                                 <span class="qodef-m-digit"></span></div>
@@ -1049,7 +1049,7 @@
                                                 <div class="elementor-widget-container">
                                                     <div
                                                         class="qodef-shortcode qodef-m  qodef-counter qodef-layout--simple"
-                                                        data-start-digit="1" data-end-digit="12">
+                                                        data-start-digit="1" data-end-digit="13">
                                                         <div class="qodef-m-digit-wrapper-holder">
                                                             <div class="qodef-m-digit-wrapper">
                                                                 <span class="qodef-m-digit"></span></div>
@@ -1076,7 +1076,7 @@
                                                 <div class="elementor-widget-container">
                                                     <div
                                                         class="qodef-shortcode qodef-m  qodef-counter qodef-layout--simple"
-                                                        data-start-digit="10" data-end-digit="107">
+                                                        data-start-digit="10" data-end-digit="112">
                                                         <div class="qodef-m-digit-wrapper-holder">
                                                             <div class="qodef-m-digit-wrapper">
                                                                 <span class="qodef-m-digit"></span></div>

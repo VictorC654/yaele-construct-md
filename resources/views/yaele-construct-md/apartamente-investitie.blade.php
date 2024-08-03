@@ -736,6 +736,20 @@
                 font-size: 25px;
             }
         }
+
+
+        @media  (max-width: 480px) {
+            h1 {
+                  font-size:.1em !important;
+            }
+        }
+
+        /*@media only screen and (max-width: 480px)*/
+        /*{*/
+        /*    h1 {*/
+        /*        font-size:.1em !important;*/
+        /*    }*/
+        /*}*/
     </style>
     <link rel='stylesheet' id='hendon-core-elementor-css'
           href='{{ asset('wp-content/plugins/hendon-core/inc/plugins/elementor/assets/css/elementor.min.css') }}'
@@ -813,7 +827,7 @@
                                              src="https://yaele-construct.ro/wp-content/uploads/2023/09/logo_yaele.svg"
                                              class="qodef-header-logo-image qodef--dark" alt="logo dark"
                                              itemprop="image"/> <img width="267" height="120"
-                                                                     src="https://yaele-construct.ro/wp-content/uploads/2023/09/logo_yaele.svg"
+                                                                     src="{{ asset('wp-content/uploads/2023/09/logo_yaele.svg') }}"
                                                                      class="qodef-header-logo-image qodef--light"
                                                                      alt="logo light" itemprop="image"/></a>
             <nav class="qodef-header-navigation" role="navigation" aria-label="Top Menu">
@@ -846,26 +860,14 @@
                     </a></div>
             </div>
         </div>
-        <form action="https://yaele-construct.ro/" class="qodef-search-cover-form" method="get">
-            <div class="qodef-m-inner">
-                <input type="text" placeholder="Search..." name="s" class="qodef-m-form-field" autocomplete="off"
-                       required/>
-                <a href="javascript:void(0)" class="qodef-opener-icon qodef-m qodef-source--svg-path qodef-m-close">
-	<span class="qodef-m-icon qodef--open">
-		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-             width="27px" height="27px" viewBox="0 0 27 27" enable-background="new 0 0 27 27" xml:space="preserve">
-<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="4.719" y1="5.005" x2="22.785" y2="21.989"/>
-<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="22.785" y1="5.005" x2="4.719" y2="21.989"/>
-</svg>	</span>
-                </a></div>
-        </form>
+
     </header>
     @include('partials.mobile-nav')
     <div id="qodef-page-outer">
         <div
             class="qodef-page-title qodef-m qodef-title--standard qodef-alignment--center qodef-vertical-alignment--window-top qodef--has-image">
             <div class="qodef-m-inner">
-                <div class="qodef-m-content qodef-content-grid ">
+                <div class="qodef-m-content qodef-content-grid">
                     <h1 class="qodef-m-title entry-title">
                         @lang('site.nav-apartamente-investitie')
                     </h1>
