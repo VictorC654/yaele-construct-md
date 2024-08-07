@@ -1,0 +1,426 @@
+/*
+Theme Name: Hendon Child
+Theme URI: http://hendon.qodeinteractive.com
+Description: A child theme of Hendon
+Author: Mikado Themes
+Author URI: http://themeforest.net/user/mikado-themes
+Version: 1.0.1
+Text Domain: hendon
+Template: hendon
+*/
+
+
+/* HOME */
+
+
+
+.page-id-3003 .qodef-page-title .qodef-m-title {
+    margin-top:0px !important;
+    font-size: 4em !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .page-id-3003 .qodef-page-title .qodef-m-title { margin-top:-70px !important; font-size:2em !important;}
+}
+
+#home_cards p { text-align:justify !important;}
+#home_last_block .qodef-m-title { line-height:1.4em;}
+
+@media only screen and (max-width: 767px) {
+    #home_last_block .qodef-m-title { font-size:18px !important;}
+    #home_last_block p{
+        font-size: 1em;
+        text-align: justify !IMPORTANT;
+        letter-spacing: 0.05em !IMPORTANT;
+        line-height: 1.6em !IMPORTANT;
+        }
+}
+@media (max-width: 480px) {
+    .page-id-3003 .qodef-page-title .qodef-m-title {
+        margin-top: -40px !important;
+        font-size: 1.3em !important;
+        line-height: 1.3em !important;
+    }
+}
+
+/* DESPRE NOI */
+
+.page-id-3133 .qodef-page-title .qodef-m-title {
+    margin-top:0px !important;
+    font-size:4em !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .page-id-3133 .qodef-page-title .qodef-m-title {
+        margin-top:-70px !important;
+        font-size:1.5em !important;
+    }
+}
+@media (max-width: 480px) {
+    .page-id-3133 .qodef-page-title .qodef-m-title {
+        margin-top: -79.2px !important;
+        font-size: 1.3em !important;
+        line-height: 1.3em !important;
+    }
+}
+#about_acordion .qodef-accordion-content-inner { margin-top:20px;}
+#about_acordion .elementor-widget-hendon_core_accordion { max-width:1000px; margin:0px auto;}
+
+
+/* CASE A FRAME */
+.page-id-3329 .qodef-page-title .qodef-m-title { margin-top:0px !important;}
+
+@media only screen and (max-width: 767px) {
+    .page-id-3329 .qodef-page-title .qodef-m-title { margin-top:-70px !important;}
+}
+@media (max-width: 480px) {
+    .page-id-3669 .qodef-page-title .qodef-m-title {
+        margin-top:-40px !important;
+        font-size: 1.3em !important;
+        line-height: 1.3em !important;
+    }
+}
+#case_a_frame .qodef-section-title .qodef-m-text {
+    letter-spacing: .1em !IMPORTANT;
+}
+
+.page-id-3329 #elementor-lightbox-slideshow-single-img { display:none !important;}  /* Bugfix galerie */
+
+@media only screen and (min-width: 768px) {
+#case_a_frame_top_p, #case_a_frame_second_p p { text-align:center !important;}
+}
+
+
+@media only screen and (max-width: 767px) {
+#case_a_frame_optiuni p { text-align:center !important;}
+}
+
+#case_a_frame_request .qodef-m-text { letter-spacing:0.2em !important;}
+
+
+
+/* Fix galerie dorita */
+
+.qodef-grid-item.qodef-img-holder.qodef-col--6 { width:100% !important;}
+.qodef-grid-item.qodef-map-holder.qodef-col--6 { display:none !important;}
+
+
+/* PROIECTE REALIZATE */
+.page-id-3669 .elementor-section.elementor-section-boxed > .elementor-container {max-width:1300px !important;}
+.bloc_finalizate .elementor-widget-hendon_core_button { text-align:center !important;}
+
+.page-id-3669 .qodef-page-title .qodef-m-title {
+    margin-top:0px !important;
+}
+@media only screen and (max-width: 767px) {
+    .page-id-3669 .qodef-page-title .qodef-m-title {
+        margin-top:-70px !important;
+        font-size:2em !important;
+    }
+}
+@media (max-width: 480px) {
+    .page-id-3669 .qodef-page-title .qodef-m-title {
+        margin-top: -45px !important;
+        font-size: 1.1em !important;
+        line-height: 1.1em !important;
+    }
+
+    .page-id-3669 #qodef-page-inner {
+        padding: 60px 0 160px !important;
+    }
+
+
+    /* PROIECTE IN DEZVOLTARE */
+    @media only screen and (max-width: 767px) {
+        .page-id-5914 .qodef-page-title .qodef-m-title {
+            margin-top: -70px !important;
+            font-size: 2em !important;
+        }
+    }
+    @media (max-width: 480px) {
+        .page-id-5914 .qodef-page-title .qodef-m-title {
+            margin-top: -40px !important;
+            font-size: 1.3em !important;
+            line-height: 1.3em !important;
+        }
+
+        /* Apartament Single */
+        .info_apartament h6 {
+            margin: 0px !important;
+        }
+
+        .descarca_plan_rlv h6 a {
+            font-family: "Cormorant Garamond";
+            text-decoration: underline;
+            text-underline-offset: 0.6em;
+            font-weight: 700;
+            letter-spacing: 0.3em;
+        }
+
+        @media only screen and (max-width: 767px) {
+            #navigare_galerie {
+                margin-top: -57% !important;
+            }
+
+            #navigare_galerie i {
+                font-size: 1.5em !important;
+            }
+        }
+
+        #descriere_apartament_single p {
+            font-family: 'Raleway';
+            font-size: .8em;
+            line-height: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        @media only screen and (min-width: 768px) {
+            #descriere_apartament_single p {
+                text-align: center !important;
+            }
+        }
+
+        @media only screen and (max-width: 767px) {
+            #descriere_apartament_single p {
+                padding: 0px 5%;
+            }
+        }
+
+        /* Apartament archive */
+        .page-id-4087 #qodef-page-inner {
+            padding: 0px 0 160px !important;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .page-id-4087 .qodef-page-title .qodef-m-title {
+                margin-top: -70px !important;
+                font-size: 1.5em !important;
+                line-height: 1.3em !important;
+            }
+        }
+        @media (max-width: 480px) {
+            .page-id-4087 .qodef-page-title .qodef-m-title {
+                margin-top: -79.2px !important;
+                font-size: 1.3em !important;
+                line-height: 1.3em !important;
+            }
+        }
+
+        hr.rigla {
+            margin-top: 40px !important;
+            margin-bottom: 20px !important;
+            height: 1px;
+            border: none;
+            background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #c28562));
+        }
+
+        @media only screen and (min-width: 768px) {
+            hr.rigla {
+                display: none !important;
+            }
+        }
+
+
+
+
+        /* Contact */
+        @media only screen and (max-width: 767px) {
+            .pagina_contact_bloc p {
+                text-align: justify !important;
+            }
+        }
+
+        .pagina_contact_bloc h6 {
+            letter-spacing: .4em !important;
+            letter-spacing: .2em !important;
+            line-height: 2em;
+        }
+
+        .pagina_contact_bloc_telefon h6 {
+            letter-spacing: .4em !important;
+            line-height: 2.5em !important;
+        }
+
+        .pagina_contact_bloc_telefon a {
+            color: #c28562 !important;
+        }
+
+
+        /* Logo svg */
+        .qodef-header-logo-link, .qodef-mobile-header-logo-link {
+            width: 151px !important;
+        }
+
+        .qodef-header-navigation {
+            margin: 0px auto !important;
+        }
+
+        /*
+        .qodef-header-standard--left #qodef-page-header-inner .qodef-header-logo-link { margin-right:0px !important;}
+        */
+        /* --- HEADER -----*/
+        .qodef-top-area-right .qodef-e-title-text {
+            font-size: 1.1em !important;
+            margin-bottom: 5px !important;
+        }
+
+        .ascunde {
+            display: none !important;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .hide_on_mobile {
+                display: none !important;
+            }
+        }
+
+        .qodef-m-title.entry-title {
+            font-size: 2.5em !important;
+            margin-top: 0px !important;
+        }
+
+        /* Global title settings */
+        @media only screen and (max-width: 767px) {
+            .qodef-m-title.entry-title {
+                font-size: 1.3em !important;
+                line-height: 1.5em !important;
+            }
+        }
+
+
+        .widget_hendon_core_search_opener {
+            display: none !important;
+        }
+
+
+        /* CF 7 */
+        .checku .wpcf7-list-item {
+            margin: 0px !important;
+        }
+
+        .checku span {
+            font-family: 'Cormorant Garamond' !important;
+        }
+
+        .checku input[type="checkbox"] {
+            accent-color: #000000 !important;
+        }
+
+        .wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.sent .wpcf7-response-output {
+            border-color: transparent !important;
+        }
+
+
+        /* Footer butons */
+        .foot_whatsapp, .foot_fb {
+            position: fixed;
+            bottom: 20px;
+            left: 15px;
+            z-index: 99000;
+            border-radius: 50%;
+            height: 3em;
+            width: 3em;
+            transform: scale(0.6);
+        }
+
+        .foot_whatsapp i {
+            font-size: 2em;
+            color: #ffffff;
+            margin-top: 0.25em;
+            margin-left: 0.3em;
+        }
+
+        .foot_fb i {
+            font-size: 1.5em;
+            color: #ffffff;
+            margin-top: 0.45em;
+            margin-left: 0.5em;
+        }
+
+        .foot_fb {
+            bottom: 65px;
+            margin-bottom: 10px;
+        }
+
+
+        @media only screen and (min-width: 768px) {
+            .foot_fb {
+                display: none !important;
+            }
+        }
+
+
+        /* Fix banner */
+        @media only screen and (min-width: 1024px) {
+            .qodef-page-title {
+                max-height: 60vh !important;
+                background-position: center center !important;
+            }
+        }
+
+        /* Fix footer form */
+        @media only screen and (min-width: 1024px) {
+            .scale_footer_form {
+                transform: scale(0.7);
+            }
+        }
+
+
+        .apartament_archive_holder .elementor-widget-html {
+            text-transform: uppercase;
+            color: #000;
+            font-size: 13px;
+            letter-spacing: .3em;
+            font-family: Raleway;
+            font-weight: 500;
+            margin: 10px 0px;
+            -ms-word-wrap: break-word;
+            word-wrap: break-word;
+            text-align: center !important;
+            margin: 0px !important;
+        }
+
+        .apartament_archive_holder .pret_apartament {
+            color: #C28562 !important;
+        }
+
+
+        .apartament_archive_holder img:hover {
+            filter: brightness(0.7) !important;
+            -webkit-transition: 1s -webkit-filter linear;
+            -moz-transition: 0.7s -moz-filter linear;
+            -moz-transition: 0.7s filter linear;
+            -ms-transition: 0.7s -ms-filter linear;
+            -o-transition: 0.7s -o-filter linear;
+            transition: 0.7s filter linear, 1s -webkit-filter linear;
+        }
+
+        .center_fix {
+            text-align: center !important;
+        }
+
+
+        /* GDPR plugin style */
+        .sgcc-notice-content p, .sgcc-notice-content a {
+            font-family: 'Raleway' !important;
+
+        }
+
+        @media (max-width: 460px) {
+
+            #close-sgcc {
+                display: none !important;
+            }
+
+            .sgcc-main-wrapper {
+                max-width: 100% !important;
+            }
+
+            page-id-3329
+            .s-gdpr-c-c-customwidth-bottom-right {
+                bottom: 0px;
+                right: 0px;
+            }
+        }
+    }
+}
